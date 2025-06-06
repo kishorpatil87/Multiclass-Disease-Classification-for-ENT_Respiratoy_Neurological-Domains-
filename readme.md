@@ -55,25 +55,16 @@ The diseases are grouped under 3 medical domains:
    ```bash
    git clone https://github.com/kishorpatil87/Multiclass-Disease-Classification-for-ENT_Respiratoy_Neurological-Domains-.git
    cd Multiclass-Disease-Classification-for-ENT_Respiratoy_Neurological-Domains
-Install dependencies
-(Recommended to run in Google Colab or use Python 3.8+)
+ 2. Install dependencies
+    (Recommended to run in Google Colab or use Python 3.8+)
+    ```bash
+     pip install transformers pandas scikit-learn
 
-bash
-Copy
-Edit
-pip install transformers pandas scikit-learn
 Open Notebooks
-
 Use the .ipynb notebooks to:
-
 Load and preprocess the data
-
 Tokenize with BioBERT tokenizer
-
 Fine-tune the BioBERT model
-
 Evaluate accuracy, precision, and F1-score
 
-🧪 Model Output
-The model achieves good performance on multiclass classification with three domains. Evaluation metrics include accuracy, confusion matrix, and F1-score (see final notebook for charts and details).
-
+The model achieves 89.7% accuracy which is good for multiclass classification with three domains. Evaluation metrics include accuracy, confusion matrix, and F1-score (see final notebook for charts and details).
