@@ -54,7 +54,7 @@ The diseases are grouped under 3 medical domains:
 1. **Clone the repo**
    ```bash
    git clone https://github.com/kishorpatil87/Multiclass-Disease-Classification-for-ENT_Respiratoy_Neurological-Domains-.git
-   cd kishorpatil87/Multiclass-Disease-Classification-for-ENT_Respiratoy_Neurological-Domains
+   cd Multiclass-Disease-Classification-for-ENT_Respiratoy_Neurological-Domains
 Install dependencies
 (Recommended to run in Google Colab or use Python 3.8+)
 
